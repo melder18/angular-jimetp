@@ -2,7 +2,7 @@
 
 * {
   font-family: 'Roboto', Arial, sans-serif;
-  color: #616161;
+  color: #08a3eb;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,7 +18,7 @@ body {
 }
 
 router-outlet + * {
-  padding: 0 16px;
+  padding: 0 18px;
 }
 
 /* Text */
@@ -44,8 +44,8 @@ p {
 
 a {
   cursor: pointer;
-  color: #3ea3f5;
-  text-decoration: none;
+  color: #4bd5f7;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -79,7 +79,7 @@ button {
   border-radius: 2px;
   font-size: 14px;
   cursor: pointer;
-  background-color: #1976d2;
+  background-color: #20d8b0;
   color: white;
   border: none;
 }
